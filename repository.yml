@@ -1,0 +1,6 @@
+repo.name: mynewt_nrf51822_qfaa
+repo.versions:
+    "0.0.0": "main"
+
+    "0-latest": "0.0.0"
+    "0-dev": "0.0.0" # main
