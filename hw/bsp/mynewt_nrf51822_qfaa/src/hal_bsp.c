@@ -160,10 +160,8 @@ void
 hal_bsp_init(void)
 {
     int rc;
-#if MYNEWT_VAL(I2C_0)
-    struct nrf51_hal_i2c_cfg hal_i2c_cfg;
-#endif
 
+    /* Avoid compiler warnings about unused variable */
     (void)rc;
 
     /* Make sure system clocks have started */
